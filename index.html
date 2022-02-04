@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KABADDI SCOREBORD</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="grad">Pro-Kabaddi Dashboard</h1>
+        <div class="container1">
+            <div>
+                <h1 style="margin-top: 0px" class="h1">Team I</h1>
+            <h2 ><span style="font-size: 25px">Point</span> <br> <span id="team1">0</span></h2>
+            <button class="button1" name="btn" onclick="addA()">Add Point</button>
+            
+            <button class="button2" name="btn" onclick="deductA()">Deduct Point</button>
+        </div>
+
+        <div >
+            <h1 style="margin-top: 0px">Team II</h1>
+            <h2><span style="font-size: 25px">Point</span> <br> <span id="team2">0</span></h2>
+            <button class="button1" name="btn" onclick="addB()">Add Point</button>
+
+            <button class="button2" name="btn" onclick="deductB()">Deduct Point</button>
+            </div>
+
+            
+            
+        </div>
+        <input type="button" class="btnRes" value="Show Result" onclick="res()" />
+        <h1 id="res">Result here</h1>
+    </div>
+    <script src="./JS/script.js">
+    </script>
+</body>
+
+</html>
